@@ -1,0 +1,14 @@
+div{
+    font-style: italic;
+}
+.link{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(24, 1, 1);
+}
+body{
+    background-color: rgb(243, 246, 248);
+}
+p{
+    font: arial;
+}
