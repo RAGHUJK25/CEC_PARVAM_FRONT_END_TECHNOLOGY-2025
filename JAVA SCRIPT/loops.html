@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h3>Loops in java-Script:</h3>
+    <p><b>for loops :</b> Used when you know hom many time you want run code.</p>
+    <p><b>while loops :</b> Run a block of code ,while condition is True.</p>
+    <p><b>Do while loops :</b> Excute the Atleast once and then check the condition is True or False.</p>
+    <P><b>For in loop :</b> Used to Itearate over object properties.</P>
+    <p><b>For of loop :</b> Used to Iterate over iterable object like arrays ,strings.etc</p>
+    <script>
+        num = +prompt("Enter the number:");
+        for (let i = 0; i <=num; i++) {
+            console.log("For-loops", i);
+        }
+
+        let i = 0;
+        while (i < num) {
+            console.log("while-loops", i);
+            i++;
+        }
+
+        let j = 0;
+        do {
+            console.log("Do-while loop", j);
+            j++;
+        } while (j < num);
+
+        const person = { name: "Raghu", age: 25 };
+        for (let key in person){
+            console.log(key+":"+person[key]);
+        }
+
+        let colors= ["Red", "Green", "Blue"];
+        for (let color of colors){
+            console.log("For of loop:",color);
+        }
+
+    </script>
+</body>
+
+</html>

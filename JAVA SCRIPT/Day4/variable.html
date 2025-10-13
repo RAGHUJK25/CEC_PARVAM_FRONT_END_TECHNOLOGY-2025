@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>We cxan create variable in JS using three Ways:</h1>
+    <ol>
+        <li>var : Using var We can Redeclare a Variable.(function scope)</li>
+        <li>let ; Using let we can Reuse the variable but not Redeclared(block-scope)</li>
+        <li>const : Using cont we can't change the value of a variable(block-scope)</li>
+    </ol>
+    <pre>
+        <script>
+            var city = "Bengaluru" ;
+            var city = "Chennai";// Redeclared variable
+            console.log("City :",city);
+
+            let nation = "India";
+            nation = "USA";// Reused variable
+            console.log("Nation :",nation);
+
+            const pi = 3.14;
+            //const pi = 3.145; : Can't Redeclare and Reuse the variable
+            console.log("PI :",pi);
+        </script>
+    </pre>
+</body>
+</html>

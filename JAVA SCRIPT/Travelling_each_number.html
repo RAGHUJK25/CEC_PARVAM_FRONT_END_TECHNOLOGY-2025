@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traverse a number</title>
+</head>
+<body>
+    <h1>number Travelling:</h1>
+    <script>
+        let number = +prompt("Enter the number:");
+        let count =0;
+        while(number !=0){
+            let digit = number % 10;
+            count=count+1;
+            number = Math.floor(number/10);
+        }
+        console.log("Total digits in a number:",count);
+    </script>
+</body>
+</html>
