@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <ol>
+        <li>we can change content of the html</li>
+
+        <h2 id="title">Hellow world</h2>
+        <button tyep="button" onclick="document.getElementById('title').innerText='We can do'">change the
+            content of the H1</button>
+
+        <li>we can change the html Attribute</li>
+        <img src="./off.webp" alt="off" width="300" height="230" id="bulb">
+        <button type="button" onclick="document.getElementById('bulb').src='./on.webp'">Turn ON</button>
+        <button type="button" onclick="document.getElementById('bulb').src='./off.webp'">Turn OFF</button>
+
+        <li>we can change the html CSS</li>
+        <div id="desc">Lorem, ipsum dolor.</div>
+        <button onclick="document.getElementById('desc').style.backgroundColor='yellow'">change background</button>
+
+        <li>we can hide the html elements</li>
+        <h3 id="title3">Lorem ipsum dolor sit.</h3>
+        <button onclick="document.getElementById('title3').style.display='none'">hide Element</button>
+        <button onclick="document.getElementById('title3').style.display='block'">show Element</button>
+
+        <li>we can show the html elements</li>
+        <h3 id="heading_2" style="display: none;">heading 2</h3>
+        <button onclick="document.getElementById('heading_2').style.display='block'">show ele</button>
+
+    </ol>
+</body>
+
+</html>
